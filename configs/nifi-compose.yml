@@ -13,3 +13,8 @@ services:
 networks:
   cybersec-network:
     external: true
+
+# in browser
+# https://localhost:8443/nifi
+# Username: admin
+# Password: cybersec123456
