@@ -1,0 +1,548 @@
+{
+  "total_alerts": 80,
+  "high_risk_users": 5,
+  "threats_blocked": 61,
+  "threats_by_type": {
+    "UEBA_ANOMALY": 11,
+    "ENSEMBLE_THREAT": 35,
+    "UNKNOWN": 34
+  },
+  "threats_by_user": {
+    "ali": 8,
+    "usman": 12,
+    "sara": 12,
+    "fatima": 8,
+    "unknown": 35,
+    "ahmed": 5
+  },
+  "threats_by_hour": {
+    "15": 51,
+    "1": 3,
+    "11": 3,
+    "9": 3,
+    "14": 3,
+    "8": 3,
+    "12": 2,
+    "10": 1,
+    "17": 5,
+    "13": 2,
+    "16": 3,
+    "0": 1
+  },
+  "threats_by_location": {
+    "Unknown": 46,
+    "China": 2,
+    "Pakistan": 14,
+    "UAE": 9,
+    "UK": 7,
+    "North Korea": 1,
+    "Russia": 1
+  },
+  "top_threats": [
+    {
+      "user": "unknown",
+      "count": 35
+    },
+    {
+      "user": "usman",
+      "count": 12
+    },
+    {
+      "user": "sara",
+      "count": 12
+    },
+    {
+      "user": "ali",
+      "count": 8
+    },
+    {
+      "user": "fatima",
+      "count": 8
+    }
+  ],
+  "alert_timeline": [
+    {
+      "timestamp": "2026-04-28T15:04:41.157227",
+      "user": "ali",
+      "score": 75,
+      "type": "UEBA_ANOMALY"
+    },
+    {
+      "timestamp": "2026-04-28T15:04:45.163027",
+      "user": "ali",
+      "score": 75,
+      "type": "UEBA_ANOMALY"
+    },
+    {
+      "timestamp": "2026-04-28T15:04:47.165410",
+      "user": "usman",
+      "score": 55,
+      "type": "UEBA_ANOMALY"
+    },
+    {
+      "timestamp": "2026-04-28T15:04:48.167138",
+      "user": "sara",
+      "score": 55,
+      "type": "UEBA_ANOMALY"
+    },
+    {
+      "timestamp": "2026-04-28T15:04:49.167790",
+      "user": "ali",
+      "score": 55,
+      "type": "UEBA_ANOMALY"
+    },
+    {
+      "timestamp": "2026-04-28T15:04:50.169520",
+      "user": "usman",
+      "score": 50,
+      "type": "UEBA_ANOMALY"
+    },
+    {
+      "timestamp": "2026-04-28T15:04:51.171192",
+      "user": "fatima",
+      "score": 50,
+      "type": "UEBA_ANOMALY"
+    },
+    {
+      "timestamp": "2026-04-28T15:04:59.182891",
+      "user": "ali",
+      "score": 170,
+      "type": "UEBA_ANOMALY"
+    },
+    {
+      "timestamp": "2026-04-28T15:05:01.186315",
+      "user": "usman",
+      "score": 75,
+      "type": "UEBA_ANOMALY"
+    },
+    {
+      "timestamp": "2026-04-28T15:05:08.196643",
+      "user": "fatima",
+      "score": 55,
+      "type": "UEBA_ANOMALY"
+    },
+    {
+      "timestamp": "2026-04-28T15:05:16.209243",
+      "user": "ali",
+      "score": 55,
+      "type": "UEBA_ANOMALY"
+    },
+    {
+      "timestamp": "2026-04-28T15:27:58.117649",
+      "user": "unknown",
+      "score": 1.0,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:27:59.118443",
+      "user": "unknown",
+      "score": 0.865,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:00.120217",
+      "user": "unknown",
+      "score": 0.982,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:02.123295",
+      "user": "unknown",
+      "score": 0.922,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:03.124493",
+      "user": "unknown",
+      "score": 0.825,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:04.126479",
+      "user": "unknown",
+      "score": 0.826,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:05.128147",
+      "user": "unknown",
+      "score": 0.827,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:07.131449",
+      "user": "unknown",
+      "score": 0.851,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:08.133245",
+      "user": "unknown",
+      "score": 0.946,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:09.134528",
+      "user": "unknown",
+      "score": 0.947,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:10.135909",
+      "user": "unknown",
+      "score": 0.709,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:11.137110",
+      "user": "unknown",
+      "score": 0.819,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:12.138772",
+      "user": "unknown",
+      "score": 0.787,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:13.140186",
+      "user": "unknown",
+      "score": 0.829,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:15.144005",
+      "user": "unknown",
+      "score": 0.986,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:16.145693",
+      "user": "unknown",
+      "score": 0.817,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:17.147187",
+      "user": "unknown",
+      "score": 0.778,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:28:18.149481",
+      "user": "unknown",
+      "score": 1.0,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:32.020403",
+      "user": "unknown",
+      "score": 1.0,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:33.021252",
+      "user": "unknown",
+      "score": 0.907,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:34.023056",
+      "user": "unknown",
+      "score": 0.954,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:35.023474",
+      "user": "unknown",
+      "score": 0.927,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:36.024788",
+      "user": "unknown",
+      "score": 0.857,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:37.026020",
+      "user": "unknown",
+      "score": 0.827,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:38.028228",
+      "user": "unknown",
+      "score": 0.898,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:39.029547",
+      "user": "unknown",
+      "score": 0.962,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:40.030629",
+      "user": "unknown",
+      "score": 0.903,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:41.031508",
+      "user": "unknown",
+      "score": 0.924,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:42.032935",
+      "user": "unknown",
+      "score": 0.734,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:43.034643",
+      "user": "unknown",
+      "score": 0.957,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:46.038632",
+      "user": "unknown",
+      "score": 0.925,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:47.040492",
+      "user": "unknown",
+      "score": 0.933,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:48.042129",
+      "user": "unknown",
+      "score": 0.767,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:50.045004",
+      "user": "unknown",
+      "score": 0.979,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T15:30:51.046417",
+      "user": "unknown",
+      "score": 0.804,
+      "type": "ENSEMBLE_THREAT"
+    },
+    {
+      "timestamp": "2026-04-28T01:13:49.406316",
+      "user": "sara",
+      "score": 0.94,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T11:13:51.518750",
+      "user": "usman",
+      "score": 0.83,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T09:13:54.523076",
+      "user": "sara",
+      "score": 0.78,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T15:13:57.526325",
+      "user": "ahmed",
+      "score": 0.82,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T14:13:58.528099",
+      "user": "usman",
+      "score": 0.8,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T08:13:59.529918",
+      "user": "sara",
+      "score": 0.81,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T12:14:02.535248",
+      "user": "fatima",
+      "score": 0.9,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T15:14:05.539011",
+      "user": "usman",
+      "score": 0.88,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T10:14:07.542091",
+      "user": "fatima",
+      "score": 0.8,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T01:14:09.544881",
+      "user": "sara",
+      "score": 0.96,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T17:14:13.550111",
+      "user": "sara",
+      "score": 0.71,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T12:14:19.559163",
+      "user": "sara",
+      "score": 0.82,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T17:14:21.562330",
+      "user": "sara",
+      "score": 0.8,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T14:14:24.567288",
+      "user": "usman",
+      "score": 0.87,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T15:14:25.569017",
+      "user": "sara",
+      "score": 0.84,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T13:14:26.569514",
+      "user": "usman",
+      "score": 0.82,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T11:14:27.571760",
+      "user": "usman",
+      "score": 0.71,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T16:14:28.573552",
+      "user": "ali",
+      "score": 0.75,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T01:14:29.574887",
+      "user": "ali",
+      "score": 0.96,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T15:14:30.577099",
+      "user": "fatima",
+      "score": 0.78,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T09:14:32.580081",
+      "user": "ahmed",
+      "score": 0.8,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T15:14:34.583258",
+      "user": "sara",
+      "score": 0.92,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T16:14:36.585064",
+      "user": "usman",
+      "score": 0.9,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T08:14:37.586741",
+      "user": "sara",
+      "score": 0.78,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T17:14:39.589027",
+      "user": "ahmed",
+      "score": 0.84,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T14:14:40.590568",
+      "user": "usman",
+      "score": 0.82,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T09:14:41.592316",
+      "user": "ahmed",
+      "score": 0.81,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T17:14:42.594102",
+      "user": "fatima",
+      "score": 0.77,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T17:14:44.597293",
+      "user": "fatima",
+      "score": 0.8,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T13:14:45.598373",
+      "user": "ahmed",
+      "score": 0.84,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T00:14:49.604370",
+      "user": "fatima",
+      "score": 0.94,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T08:14:50.606849",
+      "user": "sara",
+      "score": 0.77,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T16:14:51.608142",
+      "user": "usman",
+      "score": 0.77,
+      "type": "UNKNOWN"
+    },
+    {
+      "timestamp": "2026-04-28T11:14:52.609076",
+      "user": "ali",
+      "score": 0.84,
+      "type": "UNKNOWN"
+    }
+  ],
+  "model_stats": {
+    "Unknown": 80
+  }
+}

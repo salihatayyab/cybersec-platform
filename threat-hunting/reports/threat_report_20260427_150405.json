@@ -1,0 +1,29 @@
+{
+  "total_alerts": 47,
+  "high_risk": 3,
+  "blocked": 12,
+  "top_threats": [
+    {
+      "user": "ali",
+      "score": 0.95,
+      "action": "FILE_DOWNLOAD",
+      "location": "Russia",
+      "timestamp": "2026-04-27 03:15:00"
+    },
+    {
+      "user": "unknown",
+      "score": 0.87,
+      "action": "API_CALL",
+      "location": "China",
+      "timestamp": "2026-04-27 02:30:00"
+    },
+    {
+      "user": "ahmed",
+      "score": 0.72,
+      "action": "DATABASE_QUERY",
+      "location": "Pakistan",
+      "timestamp": "2026-04-27 01:45:00"
+    }
+  ],
+  "timestamp": "2026-04-27T15:04:05.360616"
+}
