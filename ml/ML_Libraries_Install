@@ -1,0 +1,5 @@
+source ~/cybersec-platform/cybersec-env/bin/activate
+
+pip install tensorflow scikit-learn xgboost pandas numpy \
+            matplotlib seaborn jupyter shap lime \
+            imbalanced-learn joblib
