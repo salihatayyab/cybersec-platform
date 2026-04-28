@@ -1,10 +1,9 @@
-# ~/cybersec-platform/ml/training/baseline_model.py
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 import joblib
+
 
 df = pd.read_csv('security_dataset.csv')
 
