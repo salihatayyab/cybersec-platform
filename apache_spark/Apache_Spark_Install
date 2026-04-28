@@ -1,0 +1,12 @@
+# Spark download
+wget https://archive.apache.org/dist/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
+tar xzf spark-3.5.0-bin-hadoop3.tgz
+sudo mv spark-3.5.0-bin-hadoop3 /opt/spark
+
+# Path set 
+echo 'export SPARK_HOME=/opt/spark' >> ~/.bashrc
+echo 'export PATH=$PATH:$SPARK_HOME/bin' >> ~/.bashrc
+source ~/.bashrc
+
+# Test 
+spark-shell --version
