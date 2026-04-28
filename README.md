@@ -426,9 +426,6 @@ SHAP Explanation:
 <img width="1556" height="598" alt="image" src="https://github.com/user-attachments/assets/2f740992-34a1-487a-9e99-bf53bce0ad4a" />
 <img width="1600" height="733" alt="image" src="https://github.com/user-attachments/assets/81666903-f839-4a12-bd1a-8fc8fd63fbd4" />
 
-
-```
-📁 screenshots is in /screenshots/
 ---
 
 ## 📡 API Reference
