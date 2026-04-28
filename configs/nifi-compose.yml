@@ -1,0 +1,15 @@
+version: '3'
+services:
+  nifi:
+    image: apache/nifi:latest
+    ports:
+      - "8443:8443"
+    environment:
+      - SINGLE_USER_CREDENTIALS_USERNAME=admin
+      - SINGLE_USER_CREDENTIALS_PASSWORD=cybersec123456
+    networks:
+      - cybersec-network
+
+networks:
+  cybersec-network:
+    external: true
