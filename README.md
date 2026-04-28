@@ -124,7 +124,6 @@ and downloads 8,000 files (normally ~50/day).
 
 ### 🎯 Automated Threat Hunting
 - **Jupyter notebooks** — interactive threat investigation
-- **HELK** — Hunting ELK stack for advanced log analysis
 - **Auto-investigator** — automatically correlates evidence
 - **Report generator** — produces formatted threat reports
 
@@ -147,7 +146,7 @@ and downloads 8,000 files (normally ~50/day).
 | **Explainability** | SHAP, LIME, InterpretML |
 | **Streaming** | Apache Flink 1.18, Kafka Streams |
 | **Orchestration** | Apache Airflow |
-| **Threat Hunting** | HELK, Jupyter Notebooks, Pandas |
+| **Threat Hunting** | Jupyter Notebooks, Pandas |
 | **API** | Flask (Python) |
 | **Infrastructure** | Docker, Docker Compose |
 | **Language** | Python 3.10+ |
@@ -201,7 +200,6 @@ cybersec-platform/
 │   ├── auto_investigator.py    # Automated investigation
 │   └── report_generator.py     # Threat report generator
 │
-├── 📂 airflow/                 # DAG definitions
 │
 ├── 📂 dashboard/
 │   ├── api.py                  # Flask REST API
@@ -220,8 +218,6 @@ cybersec-platform/
 │   ├── model_evaluation.py     # Model performance check
 │   └── load_test.py            # Stress testing
 │
-├── 📂 demo/
-│   └── live_demo.py            # Presentation demo script
 │
 ├── docker-compose-full.yml     # All services in one file
 ├── start_all.sh                # One-click startup script
@@ -326,6 +322,10 @@ python3 create_dataset.py
 python3 baseline_model.py
 python3 xgboost_model.py
 python3 deep_learning_model.py
+python3 create_dataset_noisy.py
+python3 baseline_model_noisy.py
+python3 xgboost_model_noisy.py
+python3 deep_learning_model_noisy.py
 cd ../..
 
 # 6. Start data pipeline
@@ -421,15 +421,7 @@ SHAP Explanation:
 > Add your screenshots here after running the platform
 
 ```
-📁 Add these screenshots to /docs/screenshots/:
-   - kibana_dashboard.png
-   - grafana_metrics.png
-   - shap_explanation.png
-   - threat_forecast.png
-   - api_response.png
-   - live_alerts.png
-```
-
+📁 screenshots is in /screenshots/
 ---
 
 ## 📡 API Reference
@@ -524,8 +516,8 @@ Working on this project gave me hands-on experience with:
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-profile)
+- GitHub: [@salihatayyab]([https://github.com/your-username](https://github.com/salihatayyab))
+- LinkedIn: [@saliyabtayyab]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/saliha-tayyab-268294324/))
 
 ---
 
@@ -541,7 +533,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - [Elasticsearch Guide](https://www.elastic.co/guide/)
 - [SHAP Library](https://shap.readthedocs.io/)
 - [HELK Project](https://github.com/Cyb3rWard0g/HELK)
-- Anthropic Claude — for guidance throughout the implementation
 
 ---
 
