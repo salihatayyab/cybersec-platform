@@ -23,5 +23,6 @@ y_pred = model.predict(X_test)
 print(classification_report(y_test, y_pred))
 
 # Model save karo
-joblib.dump(model, '../models/rf_model_realistic.pkl')
+joblib.dump(model, '../models/rf_model_noisy.pkl')
 print("Model saved!")
+
