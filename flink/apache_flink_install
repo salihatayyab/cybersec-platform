@@ -1,0 +1,12 @@
+wget https://archive.apache.org/dist/flink/flink-1.18.0/flink-1.18.0-bin-scala_2.12.tgz
+tar xzf flink-1.18.0-bin-scala_2.12.tgz
+sudo mv flink-1.18.0 /opt/flink
+echo 'export FLINK_HOME=/opt/flink' >> ~/.bashrc
+echo 'export PATH=$PATH:$FLINK_HOME/bin' >> ~/.bashrc
+source ~/.bashrc
+
+# Start karo
+/opt/flink/bin/start-cluster.sh
+
+# Dashboard:
+# http://localhost:8081
