@@ -1,0 +1,15 @@
+curl -X PUT "localhost:9200/security-logs" -H 'Content-Type: application/json' -d'
+{
+  "mappings": {
+    "properties": {
+      "timestamp":      { "type": "date" },
+      "user_id":        { "type": "keyword" },
+      "ip_address":     { "type": "ip" },
+      "action":         { "type": "keyword" },
+      "files_accessed": { "type": "integer" },
+      "location":       { "type": "keyword" },
+      "device":         { "type": "keyword" },
+      "threat_score":   { "type": "float" }
+    }
+  }
+}'
