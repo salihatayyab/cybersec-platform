@@ -516,8 +516,8 @@ Working on this project gave me hands-on experience with:
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@salihatayyab]([https://github.com/saliyatayyab](https://github.com/salihatayyab))
-- LinkedIn: [@saliyabtayyab]([https://linkedin.com/in/saliha-tayyab-268294324](https://www.linkedin.com/in/saliha-tayyab-268294324/))
+- GitHub: ([https://github.com/saliyatayyab](https://github.com/salihatayyab))
+- LinkedIn: ([https://linkedin.com/in/saliha-tayyab-268294324](https://www.linkedin.com/in/saliha-tayyab-268294324/))
 
 ---
 
