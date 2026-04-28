@@ -417,8 +417,15 @@ SHAP Explanation:
 ---
 
 ## 📸 Screenshots
+<img width="1599" height="741" alt="image" src="https://github.com/user-attachments/assets/38a0324b-4468-4c35-8094-087b6b608982" />
+<img width="1600" height="855" alt="image" src="https://github.com/user-attachments/assets/77f2a23a-2d5d-4cdc-a55f-12830f9fd422" />
+<img width="775" height="220" alt="image" src="https://github.com/user-attachments/assets/d52d7f71-6500-48e2-acbc-e28d31641801" />
+<img width="715" height="196" alt="image" src="https://github.com/user-attachments/assets/eaac7e2e-1c0b-4dad-94b7-5161cb3580bd" />
+<img width="1149" height="643" alt="image" src="https://github.com/user-attachments/assets/07a8694d-1041-43c3-901c-488a3e3c7675" />
+<img width="1323" height="693" alt="image" src="https://github.com/user-attachments/assets/74f92a5e-36c1-4e0a-adfd-829223b450e4" />
+<img width="1556" height="598" alt="image" src="https://github.com/user-attachments/assets/2f740992-34a1-487a-9e99-bf53bce0ad4a" />
+<img width="1600" height="733" alt="image" src="https://github.com/user-attachments/assets/81666903-f839-4a12-bd1a-8fc8fd63fbd4" />
 
-> Add your screenshots here after running the platform
 
 ```
 📁 screenshots is in /screenshots/
@@ -516,8 +523,8 @@ Working on this project gave me hands-on experience with:
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: ([https://github.com/saliyatayyab](https://github.com/salihatayyab))
-- LinkedIn: ([https://linkedin.com/in/saliha-tayyab-268294324](https://www.linkedin.com/in/saliha-tayyab-268294324/))
+- GitHub: (https://github.com/salihatayyab)
+- LinkedIn: (https://www.linkedin.com/in/saliha-tayyab-268294324/)
 
 ---
 
