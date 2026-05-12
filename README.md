@@ -257,7 +257,7 @@ git --version
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cybersec-platform.git
+git clone https://github.com/salihatayyab/cybersec-platform.git
 cd cybersec-platform
 ```
 
