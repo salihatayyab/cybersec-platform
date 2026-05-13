@@ -8,7 +8,7 @@ class UEBAAnalyzer:
     """User and Entity Behavior Analytics - Real-Time"""
 
     def __init__(self):
-        # Dynamic user profiles (Kafka se seekhega)
+        # Dynamic user profiles
         self.user_profiles = defaultdict(lambda: {
             'login_hours': [],
             'files_accessed': [],
@@ -27,12 +27,12 @@ class UEBAAnalyzer:
             'time_deviation': 3,
             'files_multiplier': 3,
             'upload_multiplier': 5,
-            'new_location_score': 25,
-            'new_device_score': 20,
+            'new_location_score': 20,
+            'new_device_score': 15,
             'off_hours_score': 30,
-            'high_files_score': 35,
+            'high_files_score': 50,
             'high_upload_score': 25,
-            'anomaly_threshold': 50  # Thoda lower for demo
+            'anomaly_threshold': 40
         }
 
         # Kafka setup
