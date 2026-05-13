@@ -3,6 +3,7 @@ import lime.lime_tabular
 import joblib
 import pandas as pd
 import numpy as np
+import os
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -20,8 +21,8 @@ except:
     model_name = "Random Forest"
     print(f"\n✅ {model_name} loaded (fallback)")
 
-# Load data
-df = pd.read_csv('../training/security_dataset.csv')
+# Load data – fixed path to the noisy dataset
+df = pd.read_csv('../training/security_dataset_noisy.csv')
 features = ['hour_of_day', 'files_accessed', 'login_attempts',
             'foreign_ip', 'unknown_device', 'data_uploaded_mb']
 X = df[features].values
@@ -178,6 +179,6 @@ print("=" * 60)
 print(f"\n📁 Output files:")
 import glob
 for f in sorted(glob.glob('lime_*.html')):
-    size = __import__('os').path.getsize(f) / 1024
+    size = os.path.getsize(f) / 1024
     print(f"   📄 {f} ({size:.0f} KB)")
 print(f"\n💡 Open in browser: firefox lime_obvious_threat*.html")
