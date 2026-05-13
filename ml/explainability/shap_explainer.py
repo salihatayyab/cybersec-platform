@@ -47,7 +47,7 @@ shap_values = explainer.shap_values(X)
 # RF returns [class0, class1] for binary
 if isinstance(shap_values, list):
     print(f"   SHAP for both classes: {len(shap_values)} arrays")
-    shap_vals = shap_values[:,:,1] if len(shap_values.shape)==3 else shap_values[:,:,1] if len(shap_values.shape)==3 else shap_values[1]  # Threat class
+    shap_vals = shap_values[1]   # threat class
 else:
     shap_vals = shap_values[:,:,1] if len(shap_values.shape)==3 else shap_values
 
@@ -108,6 +108,15 @@ print("\n" + "=" * 60)
 print("🔍 PREDICTION EXPLANATIONS")
 print("=" * 60)
 
+def safe_base_value(explainer):
+    """Extract threat class base value as a pure Python float."""
+    ev = explainer.expected_value
+    if isinstance(ev, list):
+        ev = ev[1]
+    if isinstance(ev, np.ndarray):
+        ev = ev.ravel()[0]    # get first element safely
+    return float(ev)          # now guaranteed scalar
+
 def explain(title, data_dict):
     df_single = pd.DataFrame([data_dict])
     proba = model.predict_proba(df_single)[0]
@@ -140,17 +149,12 @@ def explain(title, data_dict):
         bar = "█" * bar_len
         print(f"  {direction} {feat:20s} = {val:8.1f} | {sv_val:+.3f} {bar}")
 
-    # Waterfall
+    # Waterfall plot
     try:
         plt.figure(figsize=(10, 4))
-        exp_val = explainer.expected_value
-        if isinstance(exp_val, list):
-            exp_val = exp_val[1]
-        if isinstance(exp_val, np.ndarray):
-            exp_val = float(exp_val)
-
+        base_val = safe_base_value(explainer)
         shap.waterfall_plot(
-            shap.Explanation(values=sv, base_values=exp_val,
+            shap.Explanation(values=sv, base_values=base_val,
                            data=df_single.values[0], feature_names=features),
             show=False
         )
@@ -184,15 +188,10 @@ print("\n" + "=" * 60)
 print("🌐 Saving interactive HTML...")
 
 try:
-    exp_val = explainer.expected_value
-    if isinstance(exp_val, list):
-        exp_val = exp_val[1]
-    if isinstance(exp_val, np.ndarray):
-        exp_val = float(exp_val)
-
+    base_val = safe_base_value(explainer)
     shap.save_html(
         f'{output_dir}/shap_force_plot.html',
-        shap.force_plot(exp_val, shap_vals[:30], X[:30], feature_names=features)
+        shap.force_plot(base_val, shap_vals[:30], X[:30], feature_names=features)
     )
     print("✅ shap_force_plot.html")
 except Exception as e:
