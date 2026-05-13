@@ -28,8 +28,8 @@ class ThreatScorer:
 
         # Risk thresholds
         self.thresholds = {
-            'HIGH': 0.7,
-            'MEDIUM': 0.4,
+            'HIGH': 0.3,
+            'MEDIUM': 0.1,
             'LOW': 0.0
         }
 
